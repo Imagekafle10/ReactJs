@@ -8,8 +8,8 @@ function App() {
   let [rate,setRate] = useState(0)
 
   let currencyInfo = useCurrencyInfo(from);
-  let options = Object.keys(currencyInfo);
-//  console.log(currencyInfo[to]);
+  let options = Object.keys(currencyInfo)
+//  console.log(currencyInfo[to])
 function convertIt(){
       setRate(currencyInfo[to] * amount);   
 }
