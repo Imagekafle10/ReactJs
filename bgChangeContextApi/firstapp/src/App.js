@@ -20,6 +20,7 @@ useEffect(()=>{
   document.querySelector('html').classList.add(themeMode)
 })
 
+
   return (
 
 <ThemeProvider value={{themeMode, lightTheme, darkTheme}}>

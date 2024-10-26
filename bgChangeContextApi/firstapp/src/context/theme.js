@@ -6,7 +6,9 @@ export const ThemeContext = createContext({
     darkTheme : ()=>{},
     lightTheme : ()=>{},
 
+
 })
+// console.log(themeMode);
 
 export const ThemeProvider = ThemeContext.Provider
 
